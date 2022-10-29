@@ -1,0 +1,93 @@
+.registration{
+	width: 50%;
+	height: 90%;
+	margin-top:2%;
+	margin-left: 30%;
+	background-color: #80ced6;
+
+
+}
+.user{
+	width: 70%;
+	height: 100%;
+	margin-left: 15%;
+	/* background-color: #80ced6;
+	position: absolute; */
+	overflow-y: hidden;
+
+}
+.login{
+	width: 30%;
+	height: 50%;
+	margin-top:5%;
+	margin-left: 30%;
+	background-color: #80ced6;
+	position: absolute;
+
+}
+.text{
+	right: 0%;
+	top:1%;
+	width:20%;
+	position: fixed;
+	height: 5%;
+	padding-top: 5px;
+}
+.search{
+	left: 45%;
+	top:1%;
+	width:10%;
+	position: absolute;
+	height: 5%;
+	padding-top: 5px;
+}
+.center{
+	text-align: center;
+}
+.error{
+	color: red;
+}
+.message{
+	color: green;
+}
+.flex-container-product {
+	display: flex;
+	background-color: rgb(96, 96, 97);
+	align-items: center;
+  }
+  
+  .flex-container-product > div {
+	/* background-color: #f1f1f1; */
+	margin: 10px;
+	/* padding: 20px; */
+	font-size: 17px;
+	color:rgb(248, 249, 250);
+	
+  }
+  .flex-container-product .product-block{
+	  width:400px;
+	  margin-left:100px;
+	  margin-top:20px;
+  }
+  .product-header {
+	text-align: center;
+    font-size: 20px;
+    background: rgb(62, 139, 226);
+  }
+  .table-bids{
+	  position: absolute;
+	 margin-top: 10px;
+	  left:30%
+  }
+  .table-bids .table-row{
+	  margin:20px;
+
+  }
+  .table-bids .table-column{
+	padding:20px;
+	margin:100px;
+	background-color: gray;
+	color:#f8f9fa;
+	border-color: black;
+	
+}

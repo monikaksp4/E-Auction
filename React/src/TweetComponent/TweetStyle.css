@@ -1,0 +1,81 @@
+.dataview-demo .p-dropdown {
+    width: 14rem;
+    font-weight: normal;
+}
+.dataview-demo .tweet-name {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color:black;
+}
+
+.dataview-demo .tweet-description {
+    margin: 0 0 0rem 0;
+    word-wrap: break-word;
+    width: 90%;
+    color:black;
+    overflow:hidden;
+}
+
+.dataview-demo .tweet-list-item img {
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+    height: 120px;
+    width: 200px;
+    margin-left:1%;
+}
+.dataview-demo .tweet-list-item {
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    color:black;
+    
+}
+.dataview-demo .tweet-list-item:hover {
+    box-shadow: 0 0 11px rgba(33,33,33,.2); 
+  }
+.dataview-demo .mainContainer{
+    display: inline-flex;
+    flex-direction: column;
+    margin: 10px;
+    margin-left: 5%;
+    border: 1px solid rgb(233, 233, 233);
+    border-radius: 10px;
+    float: left;
+    max-width: 250px;
+    max-height: 340px;
+}
+
+
+.dataview-demo .tweet-list-item .tweet-list-detail {
+    flex: 1 1 0;
+    align-items: center;
+}
+
+.error{
+    color: red;
+}
+
+
+
+.dataview-demo .tweet-list-item .p-button {
+    margin-bottom: .5rem;
+}
+.p-button.p-button-icon-only
+{
+    width:19px;
+}
+.actions .p-button  {
+    color: #0288d1;
+    background: rgb(0 0 0 / 0%);
+    border: 1px solid #f8f9fa0f;
+    /* padding: 0.5rem 1rem; */
+    font-size: .7rem;
+    transition: background-color 0.2s, color 0.2s, border-color 0.2s, box-shadow 0.2s;
+    /* border-radius: 3px; */
+}
+.p-dataview .p-paginator-bottom {
+  
+    clear: both;
+    border-width: 0 0 1px 0;
+    border-radius: 0;
+}
+
