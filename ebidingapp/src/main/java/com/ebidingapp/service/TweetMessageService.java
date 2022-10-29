@@ -42,9 +42,7 @@ public class TweetMessageService {
 	}
 	public String postProduct(TweetMessage tweetMessage) {
 		logger.info("Product is saved successfully");
-		if(tweetMessage.getBidEndDate().isEmpty()) {
-			throw new GlobalExceptionHandlerController.BidEndDateException("bid end date can not be empty");
-		}
+
 		tweetMessageRepository.save(tweetMessage);
 		return "Product Saved Successfully";
 	}
